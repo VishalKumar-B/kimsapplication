@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Registration</title>
+</head>
+<body bgcolor="BEEEE3">
+
+	<center>
+		<h1>Welcome to doctor registration</h1>
+	</center>
+	<form action="./Doctor_Register" method="post" align="center">
+		<br> <br>
+		<table align="center">
+			<tr>
+				<td align="right">Name:</td>
+				<td align="left"><input type="text" name="name"
+					placeholder="enter name"></td>
+			</tr>
+			<tr>
+				<td align="right">Password:</td>
+				<td align="left"><input type="password" name="password"
+					placeholder="enter password"></td>
+			</tr>
+			<tr>
+				<td align="right">E-mail:</td>
+				<td align="left"><input type="email" name="email"
+					placeholder="enter email"></td>
+			</tr>
+			<tr>
+				<td align="right">Phone Number:</td>
+				<td align="left"><input type="number" name="phone"
+					placeholder="enter phone number"></td>
+			</tr>
+			<tr>
+				<td align="right">Specialization:</td>
+				<td align="left"><select name="specialization">
+						<option value="none" selected disabled hidden>-select-</option>
+						<option value="dentist">Dentist</option>
+						<option value="ENT">ENT</option>
+						<option value="cardiologist">Cardiologist</option>
+				</select></td>
+			</tr>
+			<tr>
+				<td align="right"><input type="submit" value="Register"></td>
+				<td align="left"><input type="reset" value="Reset"></td>
+			</tr>
+		</table>
+	</form>
+
+</body>
+</html>
